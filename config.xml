@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/FacebookFeed" version="1.0.2" viewmodes="maximized">
+    <tizen:application id="PH4yXByYzC.FacebookFeed" package="PH4yXByYzC" required_version="2.3.1"/>
+    <tizen:category name="http://tizen.org/category/ime"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <tizen:ime>
+        <tizen:uuid>6135122a-a428-40d2-8feb-a75f462c202c</tizen:uuid>
+        <tizen:languages>
+            <tizen:language>en-us</tizen:language>
+        </tizen:languages>
+    </tizen:ime>
+    <name>FacebookFeed</name>
+    <tizen:profile name="wearable"/>
+</widget>
