@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/FacebookFeed" version="1.0.2" viewmodes="maximized">
-    <access origin="www.facebook.com" subdomains="true"/>
-    <access origin="*" subdomains="true"/>
-    <access origin="facebook.net" subdomains="true"/>
-    <tizen:application id="PH4yXByYzC.FacebookFeed" package="PH4yXByYzC" required_version="2.3.1"/>
-    <tizen:category name="http://tizen.org/category/ime"/>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/facebookFeed" version="1.0.0" viewmodes="maximized">
+    <access origin="*" subdomains="true"></access>
+    <tizen:application id="NP9R6rPLjA.Facebook" package="NP9R6rPLjA" required_version="2.3"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <icon src="icon.png"/>
-    <tizen:ime>
-        <tizen:uuid>6135122a-a428-40d2-8feb-a75f462c202c</tizen:uuid>
-        <tizen:languages>
-            <tizen:language>en-us</tizen:language>
-        </tizen:languages>
-    </tizen:ime>
-    <name>FaceBook</name>
+    <name>Facebook</name>
+    <preference name="force-screen-on" value="true" readonly="true"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
     <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
 </widget>
